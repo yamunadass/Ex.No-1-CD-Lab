@@ -27,3 +27,44 @@ OUTPUT:
 RESULT:
 
 The program to implement a symbol table is executed and the output is verified.
+
+
+
+Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
+AIM
+To write a lex program to implement lexical analyzer to recognize a few patterns.
+ALGORITHM
+Start the program.
+
+Lex program consists of three parts.
+
+a. Declaration %%
+
+b. Translation rules %%
+
+c. Auxilary procedure.
+
+The declaration section includes declaration of variables, maintest, constants and regular definitions.
+
+Translation rule of lex program are statements of the form
+
+a. P1 {action}
+
+b. P2 {action}
+
+c. …
+
+d. …
+
+e. Pn {action}
+
+Write a program in the vi editor and save it with .l extension.
+
+Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
+
+Compile that file with C compiler and verify the output.
+
+INPUT
+OUTPUT
+RESULT
+The lexical analyzer is implemented using lex and the output is verified.
